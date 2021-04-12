@@ -24,4 +24,8 @@ git commit -m 'deploy'
 
 # 部署到 https://<USERNAME>.github.io/<REPO> vue-iview
 git push -f git@github.com:t104360038/vue-iview.git master:gh-pages
+
+# 部署到 https://<USERNAME>.github.io
+git push -f git@github.com:t104360038/t104360038.github.io/vue-iview.git master:gh-pages
+
 cd -
